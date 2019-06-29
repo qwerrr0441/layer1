@@ -197,9 +197,9 @@ namespace FytSoa.Web
             #endregion
 
             //添加NLog  
-            loggerFactory.AddNLog();
+            //loggerFactory.AddNLog();
             //读取Nlog配置文件 
-            env.ConfigureNLog("nlog.config");
+            //env.ConfigureNLog("nlog.config");
             //Swagger UI
             app.UseSwagger();
             app.UseSwaggerUI(c =>
